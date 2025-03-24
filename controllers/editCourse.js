@@ -1,5 +1,5 @@
 
-import Course from "../Models/courseModel.js";
+import Course from "../models/courseModel.js";
 const updateCourse = async (req, res) => {
   try {
     const { id } = req.params; 

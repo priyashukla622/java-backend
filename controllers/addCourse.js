@@ -1,4 +1,4 @@
-import Course from "../Models/courseModel.js";
+import Course from "../models/courseModel.js";
 const addCourse=async(req,res)=>{
     try{
         const{title,subjects,teacher,description,duration,studentsEnrolled,topics,difficulty,price}=req.body;

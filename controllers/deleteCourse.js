@@ -1,4 +1,4 @@
-import Course from "../Models/courseModel.js";
+import Course from "../models/courseModel.js";
 const deleteData=async(req,res)=>{
     try{
         const course=await Course.findByIdAndDelete(req.params.id);
