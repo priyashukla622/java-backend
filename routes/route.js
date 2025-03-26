@@ -4,7 +4,6 @@ import  {getCourse,getAll} from "../controllers/getCourse.js";
 import updateCourse from "../controllers/editCourse.js";
 import deleteData from "../controllers/deleteCourse.js"
 
-
 const router=express.Router()
 router.post("/addCourse",addCourse)
 router.get("/getCourse", getCourse)
