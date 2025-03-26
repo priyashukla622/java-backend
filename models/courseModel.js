@@ -27,6 +27,14 @@ const courseSchema = new mongoose.Schema({
     enum: ["Pending", "Completed"], 
     default: "Pending" 
   },
+  logo: { 
+    type: String,  
+    required: true 
+  },
+  authorImg: { 
+    type: String, 
+    required: true 
+  }
 });
 
 const Course = mongoose.model("Course", courseSchema);
